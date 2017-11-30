@@ -9,3 +9,7 @@ end
 def valid_move?(board, index)
   index.between?(0, 8) && (board[index] == "" || board[index] == " " || board[index] == nil)
 end
+
+def input_to_index(index)
+  index = index.to_i - 1
+end
