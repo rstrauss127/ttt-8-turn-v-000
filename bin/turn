@@ -6,5 +6,3 @@ display_board(board)
 turn(board)
 index = gets.strip
 index = input_to_index(index)
-
-
