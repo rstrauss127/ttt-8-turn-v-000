@@ -20,12 +20,12 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  
-  
+
+
   while !(valid_move?(board, index))
     puts "Please enter 1-9:"
     index = gets.strip
     input_to_index(index)
   end
-  
+
 end
