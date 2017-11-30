@@ -5,4 +5,6 @@ puts "Welcome to Tic Tac Toe"
 display_board(board)
 turn(board)
 index = gets.strip
-input_to_index(index)
+index = input_to_index(index)
+
+
