@@ -27,7 +27,9 @@ def turn(board)
     move(board, index, token = "X")
     display_board(board)
   else
-    puts "try again"
+    puts "Please enter 1-9:"
+    index = gets.strip
+    index = input_to_index(index)
   end
 
 end
